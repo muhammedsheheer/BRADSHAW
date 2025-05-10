@@ -13,8 +13,8 @@ const Follow: React.FC = () => {
         <div className="line"></div>
       </div>
       {/* big screen */}
-      <div className="hidden flex-col gap-8 md:flex md:gap-20">
-        <div className="flex w-full flex-col gap-4 px-4 md:px-[60px] 2xl:px-[80px]">
+      <div className="z-40 hidden flex-col gap-8 md:flex md:gap-20">
+        <div className="z-40 flex w-full flex-col gap-4 px-4 md:px-[60px] 2xl:px-[80px]">
           <motion.h5
             className="pb-16 text-center font-oswald text-4xl font-[400] capitalize md:text-6xl"
             initial={{ opacity: 0, y: 50 }}
@@ -46,7 +46,7 @@ const Follow: React.FC = () => {
               />
             </div>
             <motion.div
-              className="flex w-full flex-col items-center justify-center gap-2 md:mt-16 md:w-[25%]"
+              className="z-40 flex w-full flex-col items-center justify-center gap-2 md:mt-16 md:w-[25%]"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: false }}
@@ -150,8 +150,8 @@ const Follow: React.FC = () => {
         </div>
       </div>
       {/*mobile view */}
-      <div className="flex flex-col gap-8 md:hidden md:gap-20">
-        <div className="flex w-full flex-col gap-4 px-4 md:px-[60px] 2xl:px-[80px]">
+      <div className="z-40 flex flex-col gap-8 md:hidden md:gap-20">
+        <div className="z-40 flex w-full flex-col gap-4 px-4 md:px-[60px] 2xl:px-[80px]">
           <motion.h5
             className="pb-10 text-center font-oswald text-4xl font-[400] capitalize md:text-6xl"
             initial={{ opacity: 0, y: 50 }}
@@ -183,7 +183,7 @@ const Follow: React.FC = () => {
               />
             </div>
             <motion.div
-              className="flex w-full flex-col items-center justify-center gap-2 md:mt-16 md:w-[25%]"
+              className="z-40 flex w-full flex-col items-center justify-center gap-2 md:mt-16 md:w-[25%]"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: false }}
