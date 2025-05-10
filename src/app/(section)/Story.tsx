@@ -25,7 +25,7 @@ const Story: React.FC = () => {
       </div>
       <div className="absolute left-32 top-20 hidden md:block">
         <h1
-          className="font-oswald text-start text-4xl font-[300] tracking-[5px] md:text-5xl"
+          className="text-start font-oswald text-4xl font-[300] tracking-[5px] md:text-5xl"
           style={{
             background: "linear-gradient(180deg, #FFCA4E 29.5%, #191616 100%)",
             WebkitBackgroundClip: "text",
@@ -46,7 +46,7 @@ const Story: React.FC = () => {
             key={idx}
             className="flex flex-col items-center justify-center gap-4 md:gap-6"
           >
-            <Link href={""} target="_blank">
+            <Link href={"/menu"} target="_blank">
               <motion.img
                 src={item.image}
                 alt={"image"}
@@ -62,7 +62,7 @@ const Story: React.FC = () => {
       </div>
       <div className="pt-16 md:pt-40">
         <h1
-          className="font-oswald text-center text-5xl font-[400] tracking-[3px] md:text-9xl"
+          className="text-center font-oswald text-5xl font-[400] tracking-[3px] md:text-9xl"
           style={{
             background: "linear-gradient(180deg, #FFCA4E 29.5%, #191616 100%)",
             WebkitBackgroundClip: "text",

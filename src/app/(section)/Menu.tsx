@@ -39,7 +39,7 @@ const Menu: React.FC = () => {
               key={idx}
               className="flex flex-col items-center justify-center gap-4 md:gap-6"
             >
-              <Link href={""} target="_blank">
+              <Link href={"/menu"} target="_blank">
                 <motion.img
                   src={item.image}
                   alt={item.title}
