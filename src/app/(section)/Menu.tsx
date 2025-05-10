@@ -78,7 +78,7 @@ const Menu: React.FC = () => {
             Mediterranean flavors and timeless culinary craftsmanship. Every
             dish is thoughtfully prepared with passion and precision, drawing
             inspiration from the coastal kitchens of Southern Europe. Whether
-            you're joining us for a casual evening or a special occasion,
+            you`re joining us for a casual evening or a special occasion,
             Bradshaw offers a warm, welcoming atmosphere where every plate tells
             a story of flavor, tradition, and modern flair.
           </p>
