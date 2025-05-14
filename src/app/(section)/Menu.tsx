@@ -5,10 +5,26 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const menuItems = [
-  { title: "A La Carte", image: "/images/home/menu/1.png" },
-  { title: "Drinks Menu", image: "/images/home/menu/2.png" },
-  { title: "Desserts", image: "/images/home/menu/3.png" },
-  { title: "Kid’s", image: "/images/home/menu/4.png" },
+  {
+    title: "A La Carte",
+    image: "/images/home/menu/1.png",
+    menu: "/pdf/main-menu.pdf",
+  },
+  {
+    title: "Drinks Menu",
+    image: "/images/home/menu/2.png",
+    menu: "/pdf/drink-menu.pdf",
+  },
+  {
+    title: "Desserts",
+    image: "/images/home/menu/3.png",
+    menu: "/pdf/dessert-menu.pdf",
+  },
+  {
+    title: "Kid’s",
+    image: "/images/home/menu/4.png",
+    menu: "/pdf/kids-menu.pdf",
+  },
 ];
 
 const Menu: React.FC = () => {
@@ -39,7 +55,7 @@ const Menu: React.FC = () => {
               key={idx}
               className="flex flex-col items-center justify-center gap-4 md:gap-6"
             >
-              <Link href={"/menu"} target="_blank">
+              <Link href={item.menu} target="_blank">
                 <motion.img
                   src={item.image}
                   alt={item.title}
