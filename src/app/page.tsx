@@ -21,8 +21,8 @@ export default function HomePage() {
         <Hero />
         <Menu />
         <Story />
-        <Special />
         <Reserve />
+        <Special />
         <Gallery />
         <Reviews />
         <About />
